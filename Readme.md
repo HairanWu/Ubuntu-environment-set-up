@@ -213,7 +213,10 @@ cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用�
 
 /user/local是opencv安装路径 就是makefile中指定的安装路径.
 
-再运行sudo ldconfig, 修改bash.bashrc文件:
+再运行
+    sudo ldconfig
+
+修改bash.bashrc文件:
 
     sudo gedit /etc/bash.bashrc
 
