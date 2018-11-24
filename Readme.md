@@ -84,7 +84,7 @@
 
 ![png](src/4.png)
 
-<p align="center">图4 CUDA下载选择界面
+<p align="center">图4 CUDA下载选择界面</p>
 
 最新的CUDA是9.x版本，如需安装，下载对应版本即可，安装步骤一致。
 
@@ -135,6 +135,7 @@ Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 367.48?
 ![png](src/6.png)
 
 <p align="center">图6 显卡查询信息</p>
+
 ## 4.添加cuDNN库
 
 cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用的神经网络操作上进行了性能的优化，比如卷积，pooling，归一化，以及激活层等等，添加cuDNN库后可加速训练，建议安装。
