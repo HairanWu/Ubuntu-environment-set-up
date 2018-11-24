@@ -214,6 +214,7 @@ cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用�
 /user/local是opencv安装路径 就是makefile中指定的安装路径.
 
 再运行
+
     sudo ldconfig
 
 修改bash.bashrc文件:
@@ -226,8 +227,18 @@ cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用�
     export PKG_CONFIG_PATH 
 
 运行
+
     source /etc/bash.bashrc
+    
 使其生效。
+
+查看opencv安装状态
+
+    pkg-config --modversion opencv
+
+输出
+    
+    3.3.0
 
 ## 6.安装Caffe
 
