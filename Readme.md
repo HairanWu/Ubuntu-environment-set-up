@@ -86,7 +86,7 @@
 
 <p align="center">图4 CUDA下载选择界面
 
-最新的CUDA是9.0版本，为了兼容性，我们还是选择CUDA8.0。（CUDA9.0现阶段对很多库还不兼容，亲测）
+最新的CUDA是9.x版本，如需安装，下载对应版本即可，安装步骤一致。
 
 选择CUDA Toolkit 8.0 GA2得到安装包和补丁文件，cuda_8.0.61_375.26_linux.run cuda_8.0.61.2_linux.run。
 
@@ -306,7 +306,7 @@ export LD_LIBRARY_PATH=/home/XXX/caffe/python/caffe${LD_LIBRARY_PATH:+:${LD_LIBR
 到这一步，成功完成Caffe所有环境的安装，可以进行Caffe相关的开发了！！
 
 
-参考文档：
+# 参考文档：
 
 [1]http://www.linuxidc.com/Linux/2016-12/138870.htm
 
