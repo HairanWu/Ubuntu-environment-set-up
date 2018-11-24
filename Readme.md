@@ -1,6 +1,6 @@
 
 
-# Ubuntu enviroment set up
+## Ubuntu enviroment set up
 
 系统配置：
 
@@ -9,7 +9,7 @@
 （2）GTX1050Ti
 
 ## 安装过程
-1.安装依赖库
+#1.安装依赖库
 
     sudo apt-get install build-essential python-pip vim gedit cmake git 
 
@@ -23,7 +23,7 @@
 
     sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
 
-2.安装NVIDIA驱动
+#2.安装NVIDIA驱动
 
 2.1 下载显卡驱动
 
@@ -76,7 +76,7 @@
 ![png](src/3.png)
 
 图3 显卡查询信息
-3.安装CUDA
+#3.安装CUDA
 
 3.1 下载CUDA安装
 
@@ -135,7 +135,7 @@ Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 367.48?
 ![png](src/6.png)
 
 图6 显卡查询信息
-4.添加cuDNN库
+#4.添加cuDNN库
 
 cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用的神经网络操作上进行了性能的优化，比如卷积，pooling，归一化，以及激活层等等，添加cuDNN库后可加速训练，建议安装。
 
@@ -167,7 +167,7 @@ cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用�
 
     sudo ln -s libcudnn.so.7 libcudnn.so   
 
-5.安装OPENCV3.3
+#5.安装OPENCV3.3
 
 安装opencv依赖包
 
@@ -201,7 +201,7 @@ cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用�
 
     sudo make install
 
-6.安装Caffe
+#6.安装Caffe
 
 6.1 下载Caffe源码
 
