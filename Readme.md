@@ -31,7 +31,7 @@
 
 ![png](src/1.png)
 
-图1 NVIDIA显卡查询 
+<center>图1 NVIDIA显卡查询 </center>
 
 下载对应显卡驱动文件：NVIDIA-Linux-x86_64-384.98.run。
 
