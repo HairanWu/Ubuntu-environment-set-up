@@ -37,7 +37,7 @@
 
 ![png](src/2.png)
 
-图2 显卡驱动下载
+<p align="center">图2 显卡驱动下载</p>
 
 2.2 禁止Ubuntu自带的显卡驱动
 
@@ -75,7 +75,7 @@
 
 ![png](src/3.png)
 
-图3 显卡查询信息
+<p align="center">图3 显卡查询信息</p>
 ## 3.安装CUDA
 
 3.1 下载CUDA安装
@@ -84,7 +84,7 @@
 
 ![png](src/4.png)
 
-图4 CUDA下载选择界面
+<p align="center">图4 CUDA下载选择界面
 
 最新的CUDA是9.0版本，为了兼容性，我们还是选择CUDA8.0。（CUDA9.0现阶段对很多库还不兼容，亲测）
 
@@ -92,7 +92,7 @@
 
 ![png](src/5.png)
 
-图5 CUDA下载界面
+<p align="center">图5 CUDA下载界面</p>
 
 切换到下载文件所在路径，执行安装文件cuda_8.0.61_375.26_linux.run cuda_8.0.61.2_linux.run。
 
@@ -134,7 +134,7 @@ Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 367.48?
 
 ![png](src/6.png)
 
-图6 显卡查询信息
+<p align="center">图6 显卡查询信息</p>
 ## 4.添加cuDNN库
 
 cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用的神经网络操作上进行了性能的优化，比如卷积，pooling，归一化，以及激活层等等，添加cuDNN库后可加速训练，建议安装。
@@ -143,7 +143,7 @@ cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用�
 
 ![png](src/7.png)
 
-图7 CUDNN下载界面
+<p align="center">图7 CUDNN下载界面</p>
 
 选择CUDA8.0对应的cuDNN v7.0.5，选择下载进行配置，复制相应文件到系统库文件夹下。
 
@@ -227,7 +227,7 @@ cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用�
 
 ![png](src/8.png)
 
-图8 Caffe配置文件修改
+<p align="center">图8 Caffe配置文件修改</p>
 
 （4）修改python包目录
 
@@ -243,7 +243,7 @@ PYTHON_INCLUDE := /usr/include/python2.7\
         
 ![png](src/9.png)
 
-图9 Caffe配置文件修改
+<p align="center">图9 Caffe配置文件修改</p>
 
 （5）使用WITH_PYTHON_LAYER := 1
 
@@ -253,7 +253,7 @@ INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
 
 ![png](src/10.png)
 
-图10 Caffe配置文件修改
+<p align="center">图10 Caffe配置文件修改
 
 添加了hdf5库后，还需在Makefile文件中添加库文件，如下所示
 
@@ -263,7 +263,7 @@ LIBRARIES +=glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl 
 
 ![png](src/11.png)
 
-图11 hd5库添加
+<p align="center">图11 hd5库添加</p>
 
 6.4 逐步编译Caffe源码
 
@@ -297,7 +297,7 @@ LIBRARIES +=glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl 
 
 ![png](src/12.png)
 
-图12 pycaffe库引入错误
+<p align="center">图12 pycaffe库引入错误</p>
 
 在~/.bashrc中添加环境变量：
 
