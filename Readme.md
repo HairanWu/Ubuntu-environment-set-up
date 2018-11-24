@@ -8,7 +8,7 @@
 
 （2）GTX1050Ti
 
-安装过程
+## 安装过程
 1.安装依赖库
 
     sudo apt-get install build-essential python-pip vim gedit cmake git 
