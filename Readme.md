@@ -200,6 +200,29 @@ cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用�
     sudo make -j8
 
     sudo make install
+    
+接下来要给系统加入opencv库的环境变量:
+
+    sudo gedit /etc/ld.so.conf 
+
+在文件中加上一行:
+
+    include /usr/local/lib
+
+/user/local是opencv安装路径 就是makefile中指定的安装路径.
+
+再运行sudo ldconfig, 修改bash.bashrc文件:
+
+    sudo gedit /etc/bash.bashrc
+
+在文件末尾加入：
+
+    PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig 
+    export PKG_CONFIG_PATH 
+
+运行
+    source /etc/bash.bashrc
+使其生效。
 
 ## 6.安装Caffe
 
