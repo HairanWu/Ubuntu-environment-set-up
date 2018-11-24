@@ -76,6 +76,7 @@
 ![png](src/3.png)
 
 <p align="center">图3 显卡查询信息</p>
+
 ## 3.安装CUDA
 
 3.1 下载CUDA安装
