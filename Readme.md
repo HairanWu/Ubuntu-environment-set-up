@@ -11,7 +11,7 @@
 ---
 ### 目录
 1. [安装依赖库](#1.安装依赖库)
-2. [安装Ubuntu和Windows双系统](#安装ubuntu和windows双系统)
+2. [安装](#安装ubuntu和windows双系统)
 3. [安装CUDA](#3.安装CUDA)
 
      
