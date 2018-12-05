@@ -8,15 +8,9 @@
 
 （2）GTX1050Ti
 
----
-### 目录
-1. [安装依赖库](#(1)安装依赖库)
-2. [安装](#安装ubuntu和windows双系统)
-3. [安装CUDA](#3.安装CUDA)
-
      
 # 安装过程
-## (1)安装依赖库
+## 1.安装依赖库
 
     sudo apt-get install build-essential python-pip vim gedit cmake git 
 
@@ -143,8 +137,6 @@ Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 367.48?
 ![png](src/6.png)
 
 <p align="center">图6 显卡查询信息</p>
-
-## 安装Ubuntu和Windows双系统  
 
 ## 4.添加cuDNN库
 
