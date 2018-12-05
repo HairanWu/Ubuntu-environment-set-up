@@ -10,13 +10,13 @@
 
 ---
 ### 目录
-1. [安装依赖库](#1.安装依赖库)
+1. [安装依赖库](#安装依赖库)
 2. [安装](#安装ubuntu和windows双系统)
 3. [安装CUDA](#3.安装CUDA)
 
      
 # 安装过程
-## 1.安装依赖库
+## 安装依赖库
 
     sudo apt-get install build-essential python-pip vim gedit cmake git 
 
