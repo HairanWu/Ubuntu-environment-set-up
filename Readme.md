@@ -144,7 +144,6 @@ Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 367.48?
 
 <p align="center">图6 显卡查询信息</p>
 
----
 ## 安装Ubuntu和Windows双系统  
 
 ## 4.添加cuDNN库
