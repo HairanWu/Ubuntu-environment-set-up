@@ -28,7 +28,7 @@
 
 2.1 下载显卡驱动
 
-通过http://www.nvidia.com/Download/index.aspx?lang=en-us查询显卡驱动，笔者显卡为GTX1050Ti。
+通过http://www.nvidia.com/Download/index.aspx?lang=en-us 查询显卡驱动，笔者显卡为GTX1050Ti。
 
 ![png](src/1.png)
 
