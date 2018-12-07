@@ -82,7 +82,7 @@
 
 3.1 下载CUDA安装
 
-通过https://developer.nvidia.com/cuda-toolkit-archive下载cuda，
+通过https://developer.nvidia.com/cuda-toolkit-archive 下载cuda，
 
 ![png](src/4.png)
 
@@ -142,7 +142,7 @@ Install NVIDIA Accelerated Graphics Driver for Linux-x86_64 367.48?
 
 cuDNN（CUDA Deep Neural Network），相比标准的cuda，它在一些常用的神经网络操作上进行了性能的优化，比如卷积，pooling，归一化，以及激活层等等，添加cuDNN库后可加速训练，建议安装。
 
-通过https://developer.nvidia.com/rdp/cudnn-download界面下载cuDNN库，需要注册NVIDIA开发者账号。
+通过https://developer.nvidia.com/rdp/cudnn-download 界面下载cuDNN库，需要注册NVIDIA开发者账号。
 
 ![png](src/7.png)
 
